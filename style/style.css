@@ -1,0 +1,285 @@
+@font-face {
+    font-family: PlayfairDisplay;
+    src: url(../Font/PlayfairDisplay-Regular.ttf);
+}
+
+@font-face {
+    font-family: poppins;
+    src: url(../Font/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: leaguespartan;
+    src: url(../Font/leaguespartan-bold.ttf);
+}
+
+@font-face {
+    font-family: playfairbold;
+    src: url(../Font/PlayfairDisplay-Bold.ttf);
+}
+
+.poppins {
+    font-family: poppins;
+    font-size: 14px;
+    color: gray;
+    line-height: 1.5;
+}
+
+.leaguespartan {
+    font-family: leaguespartan;
+    font-size: 9px !important;
+    letter-spacing: 4px;
+}
+
+.PlayfairDisplay {
+    font-family: PlayfairDisplay !important;
+}
+
+.playfairbold {
+    font-family: playfairbold;
+}
+
+body {
+    background-image: url("image/background.png");
+    font-family: PlayfairDisplay;
+}
+
+.navbarsize {
+    margin-left: 22%;
+}
+
+.first-section-text {
+    position: absolute;
+    top: 60%;
+    font-weight: 900;
+    z-index: 1;
+    width: 75%;
+}
+
+.first-section-font-size {
+    font-size: 62px;
+    font-weight: bold;
+}
+
+.first-section-image {
+    width: 100%;
+}
+
+/* section two */
+.second-section-size {
+    margin: 14% 0% 14% 0%;
+    font-size: 20px;
+    font-family: PlayfairDisplay;
+
+}
+
+.vl {
+    border-left: 3px solid #5da8ef;
+    height: 6rem;
+    position: absolute;
+    left: 50%;
+    top: 176%;
+
+}
+
+/* third section */
+.third-section-text {
+    font-size: 14px;
+    margin: 9% 0% 0% 17%;
+}
+
+.third-section-size {
+    position: absolute;
+    top: 8%;
+    left: 40%;
+
+}
+
+.third-section-image {
+    width: 98%;
+    height: 33rem;
+}
+
+.third-section-playButton {
+    position: absolute;
+    bottom: 38%;
+    left: 39%;
+}
+
+.third-section-position {
+    position: relative !important;
+    width: 100%;
+    height: 22rem;
+}
+
+.third-section-playButtoninner {
+    position: absolute;
+    bottom: 47%;
+    left: 48%;
+}
+
+.text-underline {
+    text-decoration: underline;
+    text-decoration-color: #5da8ef;
+    text-underline-offset: 8px;
+    text-decoration-thickness: 2px;
+}
+
+/* section four */
+.fourth-section-text {
+    margin-top: 203px;
+}
+
+.text-pink {
+    color: #ce60a8;
+}
+
+.text-blue {
+    color: #5da8ef;
+}
+
+.bg-blue {
+    background-color: #5da8ef;
+}
+
+.fourth-section-child-image {
+    position: absolute;
+    right: 20%;
+    bottom: 6%;
+    z-index: 22;
+}
+
+.fourth-section-child-text {
+    position: absolute;
+    right: -10%;
+    top: 24%;
+}
+
+.fourth-section-margin {
+    margin-top: 8%;
+}
+
+/* carousel */
+@media (max-width: 767px) {
+    .carousel-inner .carousel-item>div {
+        display: none
+    }
+
+    .carousel-inner .carousel-item>div:first-child {
+        display: block
+    }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+    display: flex
+}
+
+@media (min-width: 768px) {
+
+    .carousel-inner .carousel-item-end.active,
+    .carousel-inner .carousel-item-next {
+        transform: translateX(25%)
+    }
+
+    .carousel-inner .carousel-item-start.active,
+    .carousel-inner .carousel-item-prev {
+        transform: translateX(-25%)
+    }
+}
+
+.carousel-inner .carousel-item-end,
+.carousel-inner .carousel-item-start {
+    transform: translateX(0)
+}
+
+.item-margin {
+    margin-top: 172px;
+}
+
+/* section five */
+.fifth-section-size {
+    margin-top: 16%;
+}
+
+.fifth-section-text {
+    position: absolute;
+    left: 22%;
+    top: 5rem;
+}
+
+.fifth-section-image-number {
+    position: absolute;
+    left: 21%;
+    top: 1rem;
+}
+
+.fifth-section-position {
+    position: relative !important;
+    width: 100%;
+    height: 22rem;
+}
+
+.fifth-section-image {
+    height: 111%;
+}
+
+/* section six */
+.sixth-section-size {
+    margin-top: 15%;
+}
+
+.sixth-section-text {
+    position: absolute;
+    left: 13%;
+    top: 6rem;
+}
+
+.sixth-section-image-number {
+    position: absolute;
+    left: 12%;
+    top: 1rem;
+}
+
+.sixth-section-position {
+    position: relative !important;
+    width: 100%;
+    height: 20rem;
+    margin-top: 2rem;
+}
+
+/* section seven */
+.seventh-section-size {
+    margin-top: 24%;
+}
+
+.vl2 {
+    border-left: 3px solid #5da8ef;
+    height: 6rem;
+    position: absolute;
+    left: 50%;
+    bottom: 14rem;
+
+}
+
+/* section eight */
+.eighth-section-text {
+    position: absolute;
+    left: 5%;
+    top: 5rem;
+}
+
+.nav-footer {
+    text-align: center;
+    margin: 8% 0% 3% 0%;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+    filter: invert(0.30);
+}
+
+.control-icon-margin {
+    margin-top: 19rem;
+}
